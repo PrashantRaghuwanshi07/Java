@@ -15,10 +15,10 @@ public class SelectionSort {
                  if (arr[j] > arr[max]) {
                      max = j;
                  }
-                 int temp = arr[max];
-                 arr[max] = arr[arr.length-i-1];
-                 arr[arr.length-i-1] = temp;
              }
+             int temp = arr[max];
+             arr[max] = arr[arr.length-i-1];
+             arr[arr.length-i-1] = temp;
          }
     }
 }
