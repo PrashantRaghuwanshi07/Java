@@ -37,7 +37,7 @@ public class FloorOfNum {
                     start = mid + 1;
                 }
                 else {
-                    end = end - 1;
+                    end = mid - 1;
                 }
             }
         }
